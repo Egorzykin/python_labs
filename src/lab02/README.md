@@ -21,6 +21,7 @@ print(min_max([1.5, 2, 2.0, -3.1]))
 print(min_max([]))
 ```
 ![](../../images/lab02/ex01.png)
+
 Эта функция возвращает отсортированный список уникальных значений (по возрастанию).
 ```python
 def unique_sorted(nums):
@@ -40,6 +41,7 @@ print(unique_sorted([-1, -1, 0, 2, 2]))
 print(unique_sorted([1.0, 1, 2.5, 2.5, 0]))
 ```
 ![](../../images/lab02/ex02.png) 
+
 Эта функция «расплющивает» список списков/кортежей в один список по строкам.
 ```python
 def flatten(mat):
@@ -74,6 +76,7 @@ print(transpose([]))
 print(transpose([[1, 2], [3]]))
 ```
 ![](../../images/lab02/ex04.png) 
+
 Эта функция считает сумму по каждой строке.
 ```python
 def row_sums(mat):
@@ -90,6 +93,7 @@ print(row_sums([[0, 0], [0, 0]]))
 print(row_sums([[1, 2], [3]]))
 ```
 ![](../../images/lab02/ex05.png) 
+
 Эта функция считает сумму по каждому столбцу.
 ```python
 def col_sums(mat):
