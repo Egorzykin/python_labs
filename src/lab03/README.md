@@ -108,7 +108,6 @@ for x in range(len(top_text)):
 ![](../../images/lab03/5.png)
 ### Как запустить
 
-Написать
 ```python
 python -m src.lab03.text_stats
 ```
