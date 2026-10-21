@@ -6,7 +6,7 @@ read_text
 ```
 ```python
 from pathlib import Path
-def read_text(path: str | Path, encoding: str = "utf-8") -> str:
+def read_text(path: Union[str, Path], encoding: str = "utf-8") -> str:
 
     """
     Читает текстовый файл целиком и возвращает его содержимое
@@ -37,17 +37,17 @@ write_csv
 ```python
 import csv
 from pathlib import Path
-from typing import Iterable, Sequence
+from typing import Iterable, Sequence, Union, Optional
 
-def ensure_parent_dir(path: str | Path) -> None:
+def ensure_parent_dir(path: Union[str, Path]) -> None:
 
     """Создать родительские директории для path, если их ещё нет."""
 
     Path(path).parent.mkdir(parents=True, exist_ok=True)
 
 
-def write_csv(rows: Iterable[Sequence], path: str | Path,
-              header: tuple[str, ...] | None = None) -> None:
+def write_csv(rows: Iterable[Sequence], path: Union[str, Path],
+              header: Union,[tuple[str, ...], None] = None) -> None:
     
     """
     Записать строки в CSV (разделитель ','). Перезаписывает файл.
