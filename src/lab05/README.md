@@ -72,7 +72,8 @@ json_to_csv(
 )
 ```
 ![](../../images/lab05/1.png) 
-![](../../images/lab05/2.png) 
+![](../../images/lab05/2.png)                            
+
 Функция csv_to_json
 ```python
 from pathlib import Path
@@ -130,7 +131,8 @@ csv_to_json(
 )
 ```
 ![](../../images/lab05/3.png) 
-![](../../images/lab05/4.png)
+![](../../images/lab05/4.png)                             
+
 Запуск модуля JSON ↔ CSV
 Из корня репозитория:
 ```python
@@ -139,10 +141,10 @@ python -m src.lab05.json_csv
 ```
 При таком запуске создаются:
 
-data/lab05/out/people_from_csv.json;
-data/lab05/out/people_from_json.csv;
-data/lab05/out/cities.json;
-data/lab05/out/cities.csv.
+data/lab05/out/people_from_csv.json;                                                                     
+data/lab05/out/people_from_json.csv;                                                                      
+data/lab05/out/cities.json;                                                                             
+data/lab05/out/cities.csv.                                     
 ### Задание B — CSV → XLSX
 ```python
 import csv
@@ -211,7 +213,8 @@ csv_to_xlsx(
 )
 ```
 ![](../../images/lab05/5.png) 
-![](../../images/lab05/6.png)
+![](../../images/lab05/6.png)                                                            
+
 Запуск модуля CSV → XLSX
 ```python
 python -m src.lab05.csv_xlsx
