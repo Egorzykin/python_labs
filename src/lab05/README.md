@@ -1,8 +1,8 @@
 ## ЛР5 - JSON и конвертации (JSON↔CSV, CSV→XLSX)
 
 ### Структура лабораторной работы
-src/lab05/json_csv.py — преобразование JSON в CSV и CSV в JSON;
-src/lab05/csv_xlsx.py — преобразование CSV в XLSX.
+src/lab05/json_csv.py — преобразование JSON в CSV и CSV в JSON;                             
+src/lab05/csv_xlsx.py — преобразование CSV в XLSX.                                               
 Входные примеры находятся в каталоге data/lab05/samples/, а результаты конвертаций — в каталоге data/lab05/out/.
 
 ### Задание A — JSON ↔ CSV
@@ -133,7 +133,7 @@ csv_to_json(
 ![](../../images/lab05/3.png) 
 ![](../../images/lab05/4.png)                             
 
-Запуск модуля JSON ↔ CSV
+Запуск модуля JSON ↔ CSV                              
 Из корня репозитория:
 ```python
 powershell
